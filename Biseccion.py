@@ -30,9 +30,9 @@ def biseccion(f,a,b,es,ni):
         
     return M_act
 
-def imprimir(f,a,b,es,n):
+def imprimir_biseccion(f,a,b,es,n):
     print("--------------------------------------BISECCION--------------------------------------")
     print("el valor aproximado a traves del metodo de Biseccion es:",biseccion(f,a,b,es,n))
-    print("___________________________________________________________________________________")
-    
+    print("--------------------------------------------------------------------------------------------")
+    return biseccion(f,a,b,es,n)
     
