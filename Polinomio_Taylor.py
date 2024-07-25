@@ -24,9 +24,10 @@ def polinomio_taylor(f, xcero, n):
         return polinomio
     return w
 
-def imprimir(f,xcero,n,x):
+def imprimir_polinomio(f,xcero,n,x):
     pol=polinomio_taylor(f,xcero,n)
     
     print("--------------------------------------POLINOMIO_TAYLOR--------------------------------------")
     print("el valor aproximado a traves del metodo del Polinomio de Taylor es:",pol(x))
-    print("___________________________________________________________________________________")
+    print("--------------------------------------------------------------------------------------------")
+    return pol(x)
