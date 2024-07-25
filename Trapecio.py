@@ -19,12 +19,11 @@ def trapecio (f,a,b,n):
         xcero=xuno
     return area
         
-def imprimir_Riemann(f,a,b,n):
-    print("--------------------------------------RIEMANN--------------------------------------")
-    print("el valor aproximado a traves del metodo de Riemman es:",Riemann(f,a,b,n))
+def imprimir_TRAPECIO(f,a,b,n):
+    print("--------------------------------------TRAPECIO--------------------------------------")
+    print("el valor aproximado a traves del metodo del Trapecio es:",trapecio(f,a,b,n))
     print("--------------------------------------------------------------------------------------------")
-    return Riemann(f,a,b,n)
+    return trapecio(f,a,b,n)
     
     
-
     
