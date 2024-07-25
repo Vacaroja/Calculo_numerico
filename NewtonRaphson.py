@@ -23,9 +23,9 @@ def newton_raphson(f, x, porc_err, n):
         I+=1
     return Xi
 
-def imprimir(f,a,b,n):
+def imprimir_NR(f,a,b,n):
     print("--------------------------------------NEWTON-RAPHSON--------------------------------------")
     print("el valor aproximado a traves del metodo de Newton Raphson es:",newton_raphson(f,a,b,n))
-    print("___________________________________________________________________________________")
-    
+    print("--------------------------------------------------------------------------------------------")
+    return newton_raphson(f,a,b,n)
     
