@@ -13,9 +13,10 @@ def Riemann(funcion,a,b,intervalo):
         area+=funcion(a+i*h) * h
     return area
 
-def imprimir(f,a,b,n):
+def imprimir_Riemann(f,a,b,n):
     print("--------------------------------------RIEMANN--------------------------------------")
     print("el valor aproximado a traves del metodo de Riemman es:",Riemann(f,a,b,n))
-    print("___________________________________________________________________________________")
+    print("--------------------------------------------------------------------------------------------")
+    return Riemann(f,a,b,n)
     
     
